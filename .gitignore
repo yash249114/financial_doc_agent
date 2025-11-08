@@ -1,0 +1,32 @@
+# 🧠 Python + FastAPI + Streamlit + VSCode Ignore Rules
+
+# Virtual environments
+venv/
+env/
+
+# Environment variables (keep secrets safe)
+.env
+.env.*
+!.env.example
+
+# Cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Streamlit and FastAPI cache
+.streamlit/
+logs/
+tmp/
+__cache__/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
